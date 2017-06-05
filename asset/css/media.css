@@ -1,0 +1,28 @@
+/*Para mirar como se hace media*/
+/*@media (min-width: 650px) and (max-width: 1200px){
+	body{
+		background-image: url(../img/landscape.jpg)
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	img{
+		border: 6px solid white;
+	}
+}*/
+@media (min-width: 500px) and (max-width: 700px){
+	body{
+		background-image: url(../img/dawn.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	img{
+		display: none;
+	}
+}
+@media (min-width: 1px) and (max-width: 499px){
+	body{
+		background-image: url(../img/maxresdefault.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}

@@ -4,6 +4,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
+	width: 100%;
 }
 img{
 	width: 50%;
@@ -14,11 +15,8 @@ img{
 	justify-content: center;
 	align-self: flex-end;
 	border: 2px solid blue;
-	margin: 0 auto;
-	padding: 0;
-
 }
 .imagen{
+	margin-top: 50%;
 	border: 2px solid green;
-
 }

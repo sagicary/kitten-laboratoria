@@ -12,8 +12,9 @@
 @media (min-width: 500px) and (max-width: 700px){
 	body{
 		background-image: url(../img/dawn.png);
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 	img{
 		display: none;
@@ -22,7 +23,8 @@
 @media (min-width: 1px) and (max-width: 499px){
 	body{
 		background-image: url(../img/maxresdefault.jpg);
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
+			background-attachment: fixed;
 	}
 }
